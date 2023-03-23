@@ -30,6 +30,10 @@ public class labAllocationForStudent {
 
                 differenceOfLabSpace[iterator] = differenceOfLabSpaceAndStudentSpace;
 
+            }else{
+
+                differenceOfLabSpace[iterator] = Integer.MAX_VALUE;
+
             }
         }
 
